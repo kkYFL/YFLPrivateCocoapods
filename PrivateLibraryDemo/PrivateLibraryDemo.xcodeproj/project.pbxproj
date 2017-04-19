@@ -15,7 +15,7 @@
 		3A31F7B11EA7485A00018466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A31F7AF1EA7485A00018466 /* LaunchScreen.storyboard */; };
 		3A31F7BC1EA7485A00018466 /* PrivateLibraryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31F7BB1EA7485A00018466 /* PrivateLibraryDemoTests.m */; };
 		3A31F7C71EA7485A00018466 /* PrivateLibraryDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31F7C61EA7485A00018466 /* PrivateLibraryDemoUITests.m */; };
-		3A31F7D71EA74B7000018466 /* YFLSystermManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31F7D61EA74B7000018466 /* YFLSystermManager.m */; };
+		3A31F7DB1EA794AC00018466 /* YFLSystermManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31F7DA1EA794AC00018466 /* YFLSystermManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		3A31F7C21EA7485A00018466 /* PrivateLibraryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrivateLibraryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A31F7C61EA7485A00018466 /* PrivateLibraryDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivateLibraryDemoUITests.m; sourceTree = "<group>"; };
 		3A31F7C81EA7485A00018466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A31F7D51EA74B7000018466 /* YFLSystermManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFLSystermManager.h; sourceTree = "<group>"; };
-		3A31F7D61EA74B7000018466 /* YFLSystermManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFLSystermManager.m; sourceTree = "<group>"; };
+		3A31F7D91EA794AC00018466 /* YFLSystermManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFLSystermManager.h; sourceTree = "<group>"; };
+		3A31F7DA1EA794AC00018466 /* YFLSystermManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFLSystermManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		3A31F7951EA7485A00018466 = {
 			isa = PBXGroup;
 			children = (
-				3A31F7D41EA74B2A00018466 /* YFLPrivateLibrary */,
+				3A31F7D81EA794AC00018466 /* YFLPrivateLibrary */,
 				3A31F7A01EA7485A00018466 /* PrivateLibraryDemo */,
 				3A31F7BA1EA7485A00018466 /* PrivateLibraryDemoTests */,
 				3A31F7C51EA7485A00018466 /* PrivateLibraryDemoUITests */,
@@ -144,11 +144,11 @@
 			path = PrivateLibraryDemoUITests;
 			sourceTree = "<group>";
 		};
-		3A31F7D41EA74B2A00018466 /* YFLPrivateLibrary */ = {
+		3A31F7D81EA794AC00018466 /* YFLPrivateLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				3A31F7D51EA74B7000018466 /* YFLSystermManager.h */,
-				3A31F7D61EA74B7000018466 /* YFLSystermManager.m */,
+				3A31F7D91EA794AC00018466 /* YFLSystermManager.h */,
+				3A31F7DA1EA794AC00018466 /* YFLSystermManager.m */,
 			);
 			path = YFLPrivateLibrary;
 			sourceTree = "<group>";
@@ -292,7 +292,7 @@
 				3A31F7A91EA7485A00018466 /* ViewController.m in Sources */,
 				3A31F7A61EA7485A00018466 /* AppDelegate.m in Sources */,
 				3A31F7A31EA7485A00018466 /* main.m in Sources */,
-				3A31F7D71EA74B7000018466 /* YFLSystermManager.m in Sources */,
+				3A31F7DB1EA794AC00018466 /* YFLSystermManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +530,7 @@
 				3A31F7CD1EA7485A00018466 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A31F7CE1EA7485A00018466 /* Build configuration list for PBXNativeTarget "PrivateLibraryDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +539,7 @@
 				3A31F7D01EA7485A00018466 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A31F7D11EA7485A00018466 /* Build configuration list for PBXNativeTarget "PrivateLibraryDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +548,7 @@
 				3A31F7D31EA7485A00018466 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
